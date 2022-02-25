@@ -1,7 +1,6 @@
 import StackA from './Stack-Array';
 
 // Stack Array
-
 const stack = new StackA();
 console.log('The stack is empty?', stack.isEmpty());
 

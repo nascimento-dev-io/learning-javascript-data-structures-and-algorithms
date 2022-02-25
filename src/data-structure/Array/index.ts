@@ -4,7 +4,7 @@ import {
   removeLastElement,
   removeFirstElement,
   addInFirstPosition,
-} from './array';
+} from './Array';
 
 // Criando e inicializando
 const myArray = ['Jorge', 'Anna', 'children'];

@@ -1,5 +1,5 @@
-// import './Array';
-import './data-structure/Stack';
+// import do exemplos da estruturas de dados
+import './data-structure';
 
-// algorithms
-import './algorithms/decimalToBinary';
+// import dos algorithms
+// import './algorithms/decimalToBinary';
