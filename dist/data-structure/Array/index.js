@@ -1,37 +1,23 @@
-import {
-  showArray,
-  addInLastPosition,
-  removeLastElement,
-  removeFirstElement,
-  addInFirstPosition,
-} from './Array';
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Array_1 = require("./Array");
 // Criando e inicializando
 const myArray = ['Jorge', 'Anna', 'children'];
-
 console.log('Show all elements in myArray');
-showArray(myArray);
-
+(0, Array_1.showArray)(myArray);
 console.log('===========================================');
-
 console.log('Add new element at the end');
-addInLastPosition(myArray, 'Element');
-showArray(myArray);
-
+(0, Array_1.addInLastPosition)(myArray, 'Element');
+(0, Array_1.showArray)(myArray);
 console.log('===========================================');
-
 console.log('removing the last element');
-removeLastElement(myArray);
-showArray(myArray);
-
+(0, Array_1.removeLastElement)(myArray);
+(0, Array_1.showArray)(myArray);
 console.log('===========================================');
-
 console.log('removing the first element');
-removeFirstElement(myArray);
-showArray(myArray);
-
+(0, Array_1.removeFirstElement)(myArray);
+(0, Array_1.showArray)(myArray);
 console.log('===========================================');
-
 console.log('Add new element at the first position');
-addInFirstPosition(myArray, 'Jorge');
-showArray(myArray);
+(0, Array_1.addInFirstPosition)(myArray, 'Jorge');
+(0, Array_1.showArray)(myArray);

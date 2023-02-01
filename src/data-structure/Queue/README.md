@@ -10,4 +10,4 @@ Uma fila é uma coleção ordenada de itens baseado em FIFO ( First in, FIrst Ou
 
 No mundo da computação, uma aplicação comum de um deque é na armazenagem de uma lista de operações para desfazer ações. ( utilizando a funcionalidade desfazer por exemplo)
 
-> Vamos implemtar a classe Deque e suas funcionalidades.
+> Vamos implementar a classe Deque e suas funcionalidades.

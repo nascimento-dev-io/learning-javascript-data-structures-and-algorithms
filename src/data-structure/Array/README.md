@@ -14,7 +14,7 @@ Array facilita o armazenamento de informações relacionadas, como os dados de m
 - Pode ser inicializado com valores, vazios ou determinando seu tamanho.
 - Seus valores podem ser acessado via índice
 - Em JS arrays são mutáveis de forma dinâmica e podem conter tipos diferentes.
-- Array podem ser uni e bidimensinal, tridimensional... 
+- Array podem ser uni e bidimensional, tridimensional... 
 - JS possui uma rica API para manipulação de Array.
 
 > Como JS ja possui array de forma nativa serão demonstrado aqui implementações de principais métodos para array.

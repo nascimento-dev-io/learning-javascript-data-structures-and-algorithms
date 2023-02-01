@@ -1,4 +1,4 @@
-import Stack from '../data-structure/Stack/Stack-Object';
+import Stack from './Stack-Object';
 // Função que transforma um número decimal em binário utilizando a estrutura stack.
 
 function decimalToBinary(decimal: number) {
