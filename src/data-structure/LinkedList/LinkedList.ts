@@ -74,12 +74,46 @@ export default class LinkedList<T> {
     return false;
   }
 
-  toString() {
-    let linkedListStr = '';
+  indexOf(element: T) {
     let current = this.head;
 
-    while (current != null) {
-      linkedListStr += `${current.element} `;
+    for (let i = 0; i < this.count && current != null; i++) {
+      if (this.equalsFn(element, current.element)) {
+        return i;
+      }
+
+      current = current.next;
+    }
+    return -1;
+  }
+
+  remove(element: T) {
+    const index = this.indexOf(element);
+    return this.removeAt(index);
+  }
+
+  size() {
+    return this.count;
+  }
+
+  isEmpty() {
+    return this.size() === 0;
+  }
+
+  getHead() {
+    return this.head;
+  }
+
+  toString() {
+    if (this.head == null) {
+      return '';
+    }
+
+    let linkedListStr = `${this.head.element}`;
+    let current = this.head.next;
+
+    for (let i = 1; i < this.size() && current != null; i++) {
+      linkedListStr += `${linkedListStr}, ${current.element}`;
 
       current = current.next;
     }
