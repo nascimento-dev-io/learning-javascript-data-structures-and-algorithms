@@ -35,3 +35,11 @@ Na lista duplamente ligada é possível realizar a iteração do inicio ( head )
 **Métodos implementados na Doubly Linked List**:
 
 Os Métodos serão os mesmos pore sobrescrito para atender os requisitos ds lista duplamente ligada.
+
+## Circular Linked List | Lista Ligada Circular
+
+Uma lista ligada circular pode ter uma ou duas direção de referência, a diferença entre a lista ligada circular e uma lista ligada é que o ponteiro para o próximo item do último elemento ( tail.next ) não faz uma referência a **undefined**, mas o primeiro elemento ( head ), conforme diagrama a seguir:
+
+![](./../../assets/circular-linked-list.png)
+
+A Lista ligada Circular possui os mesmo métodos e propriedades das listas anteriores, necessário apenas mudar a particularidade de implementação desse tipo de lista.
