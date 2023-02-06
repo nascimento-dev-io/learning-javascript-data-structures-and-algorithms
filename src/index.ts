@@ -1,2 +1,2 @@
-// import do exemplos da estruturas de dados
+// import dos exemplos da estruturas de dados
 import './data-structure';

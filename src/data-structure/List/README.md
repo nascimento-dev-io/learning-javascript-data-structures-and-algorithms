@@ -21,3 +21,17 @@ Um exemplo de lista ligada na vida real seria uma **caça ao tesouro**, você te
 - `isEmpty()`: esse método devolve **true** se a lista ligada não contiver nenhum elemento, e **false** se o tamanho da lista for maior que 0.
 - `size()`: esse método devolve o número de elementos contidos na lista ligada. É semelhante a propriedade **length** do array.
 - `toString()`esse método devolve uma representação em string da lista ligada.
+
+## Doubly Linked List | Lista Duplamente Ligada
+
+A diferença entre a lista duplamente ligada e uma lista ligada comum é que, nessa última,fazemos a ligação somente de um nó para o próximo, enquanto, em uma lista duplamente ligada, temos uma ligação dupla: uma para o próximo elemento e outra para o elemento anterior.
+
+![](../../assets/double-linked-list.png)
+
+Na lista duplamente ligada é possível realizar a iteração do inicio ( head ) ao fim e também do fim ( tail ) ao inicio.
+
+> Essa lista herda métodos e propriedades da lista comum.
+
+**Métodos implementados na Doubly Linked List**:
+
+Os Métodos serão os mesmos pore sobrescrito para atender os requisitos ds lista duplamente ligada.

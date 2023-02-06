@@ -45,7 +45,7 @@ export default class LinkedList<T> {
       if (index === 0) {
         this.head = current?.next;
       } else {
-        const previous = this.getElementAt(index - 1);
+        const previous = this.getElementAt(index - 1) as Node<T>;
         current = previous.next;
         previous.next = current?.next;
       }
@@ -64,8 +64,8 @@ export default class LinkedList<T> {
         node.next = current;
         this.head = node;
       } else {
-        const previous = this.getElementAt(index - 1);
-        node.next = previous?.next;
+        const previous = this.getElementAt(index - 1) as Node<T>;
+        node.next = previous.next;
         previous.next = node;
       }
       this.count++;
@@ -103,6 +103,10 @@ export default class LinkedList<T> {
   getHead() {
     return this.head;
   }
+  clear() {
+    this.head = undefined;
+    this.count = 0;
+  }
 
   toString() {
     if (this.head == null) {
@@ -113,7 +117,7 @@ export default class LinkedList<T> {
     let current = this.head.next;
 
     for (let i = 1; i < this.size() && current != null; i++) {
-      linkedListStr += `${linkedListStr}, ${current.element}`;
+      linkedListStr = `${linkedListStr}, ${current.element}`;
 
       current = current.next;
     }
