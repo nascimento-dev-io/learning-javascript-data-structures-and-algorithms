@@ -43,3 +43,7 @@ Uma lista ligada circular pode ter uma ou duas direção de referência, a difer
 ![](./../../assets/circular-linked-list.png)
 
 A Lista ligada Circular possui os mesmo métodos e propriedades das listas anteriores, necessário apenas mudar a particularidade de implementação desse tipo de lista.
+
+## Sorted Linked List | Lista Ligada Ordenada
+
+Uma lista ligada ordenada é uma lista que mantém seus elementos ordenados. Para manter todos os elementos ordenados, em vez de aplicar um algoritmo de ordenação inseriremos element em sua posição a fim de manter a lista sempre ordenada.
