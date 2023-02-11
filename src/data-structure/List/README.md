@@ -46,4 +46,8 @@ A Lista ligada Circular possui os mesmo métodos e propriedades das listas anter
 
 ## Sorted Linked List | Lista Ligada Ordenada
 
-Uma lista ligada ordenada é uma lista que mantém seus elementos ordenados. Para manter todos os elementos ordenados, em vez de aplicar um algoritmo de ordenação inseriremos element em sua posição a fim de manter a lista sempre ordenada.
+Uma lista ligada ordenada é uma lista que mantém seus elementos ordenados. Para manter todos os elementos ordenados, em vez de aplicar um algoritmo de ordenação inseriremos _element_ em sua posição a fim de manter a lista sempre ordenada.
+
+Para isso utilizamos um método privado que realiza uma iteração sobre os elementos que realiza comparação entre o elemento a ser inserido, buscando assim o índice apara inserção de forma ordenada do elemento.
+
+> Uma vez que temos a lista ligada criada temos como criar Stack e Pilha baseado nessa estrutura ao invés de arrays ou objetos.
