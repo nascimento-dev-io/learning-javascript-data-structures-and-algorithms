@@ -1,6 +1,6 @@
 // Implementação do jogo batata quente usando uma Fila Circular
 
-import Queue from './Queue';
+import Queue from '../data-structure/Queue/Queue';
 
 function hotPotato(elementList: any[], num: number) {
   const queue = new Queue();

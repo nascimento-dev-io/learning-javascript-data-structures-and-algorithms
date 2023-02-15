@@ -1,4 +1,6 @@
-import Deque from './Deque';
+import Deque from '../data-structure/Queue/Deque';
+
+// implementação do algoritmo para checa se uma string é um palíndromo
 
 export function palidromecheck(aString: string) {
   if (
