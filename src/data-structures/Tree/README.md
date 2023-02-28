@@ -44,6 +44,12 @@ O percurso **pós-ordem** visita o nó depois de visitar seus descendentes. Uma 
 
 ![](../../assets/posOrder.png)
 
+A BST tem um problema, conforme a quantidade nós que você adicionar, uma das arestas da árvore poderá ser muito profunda, o que significa que um galho da árvore poderá ter um nível alto, enquanto outro galho poderá poderá ter um nível baixo.
+
+![](../../assets/bst-desbalanceada.png)
+
+Isso pode causar problemas desempenho na adição, na remoção e na pesquisa de um nó em uma aresta em particular da árvore. Por esse motivo, há árvores chamadas **AVL ( Árvore de Adelson-Velskii e Landi)** e a **Rubro Negra** que implementam árvores balanceadas.
+
 **Métodos implementados na BST**:
 
 - `insert(key)`: esse método insere uma nova chave na árvore.
