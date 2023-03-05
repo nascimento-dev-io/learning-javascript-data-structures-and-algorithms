@@ -1,4 +1,4 @@
-import { defaultToString } from '../utils';
+import { defaultToString } from '../../utils';
 import LinkedList from '../List/LinkedList';
 import { ValuePair } from '../models/value-pair';
 

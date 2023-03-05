@@ -1,4 +1,4 @@
-import { defaultEquals, IEqualsFunction } from '../utils';
+import { defaultEquals, IEqualsFunction } from '../../utils';
 import { Node } from '../models/linked-list-models';
 
 export default class LinkedList<T> {

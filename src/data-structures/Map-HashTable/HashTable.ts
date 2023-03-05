@@ -1,4 +1,4 @@
-import { defaultToString } from '../utils';
+import { defaultToString } from '../../utils';
 import { ValuePair } from '../models/value-pair';
 
 export default class HashTable<K, V> {

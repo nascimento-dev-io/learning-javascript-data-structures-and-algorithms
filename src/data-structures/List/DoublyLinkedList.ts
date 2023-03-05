@@ -1,5 +1,5 @@
 import { DoublyNode } from '../models/linked-list-models';
-import { defaultEquals, IEqualsFunction } from '../utils';
+import { defaultEquals, IEqualsFunction } from '../../utils';
 import LinkedList from './LinkedList';
 
 export default class DoublyLinkedList<T> extends LinkedList<T> {
