@@ -37,3 +37,28 @@ Por causa da abordagem de dividir e conquistar, o algoritmo de merge sort també
 ![merge sort](../../assets/merge-sort.png)
 
 Observe que, inicialmente, o algoritmo divide o array original até que ele tenha arrays menos com um único elemento e, então,começa a combiná-los. Enquanto a combinação ocorre, a ordenação também é feita, até termos o array original totalmente recomposto e ordenado.
+
+### Quick sort
+
+O **quick sort** ( ordenação rápida ) provavelmente é o algoritmo de ordenação mais usado. Tem complexidade igual a O(_n log n_), e geralmente apresenta um desempenho melhor que outros algoritmos de ordenação de mesma complexidade. De modo semelhante ao merge sort, esse algoritmo também utiliza a abordagem de dividir e conquistar, dividindo o array original em arrays menores ( mas sem separá-los como faz o merge sort ) para fazer a ordenação.
+
+#### Processo de partição
+
+Nossa primeira tarefa deve ser escolher o elemento pivô. Há alguma maneiras de fazer isso. O modo mais simples é selecionar o primeiro valor do array (o item mais à esquerda). No entanto, estudos mostram que essa não é uma boa opção caso o array esteja quase ordenado, resultando no pior comportamento possível do algoritmo. Outra abordagem é selecionar um valor aleatório ou o valor que estiver no meio do array.
+
+![quick sort](../../assets/quick-sort1.png)
+![quick sort](../../assets/quick-sort2.png)
+![quick sort](../../assets/quick-sort3.png)
+![quick sort](../../assets/quick-sort4.png)
+
+## Counting sort
+
+O **counting sort** ( ordenação por contagem ) é o primeiro algoritmo de ordenação com distribuição. Algoritmos de ordenação com distribuição usam estruturas de dados auxiliares ( conhecidas como buckets ), que são organizadas e então combinadas, resultando no array ordenado. O counting sort usa um array temporário que armazenará quantas vezes cada elemento aparece no array original. Depois que todos os elementos foram contabilizados, o array temporário será ordenado e uma iteração poderá ser feita nele para construir o array ordenado resultante. É um bom algoritmo para ordenar inteiros ( é um **algoritmo para ordernar inteiros** ) com complexidade O( _n_ + _k_), em que _k_ é o tamanho do array temporário de contagem; no entanto, mais memória será necessária para o array temporário.
+
+![counting sort](../../assets/counting-sort.png)
+
+## Bucket sort
+
+O algoritmo de **bucket sort** ( ordenação por balde ou recipiente, também conhecido como bin sort ) também é um algoritmo de ordenação com distribuição, que separa os elementos em diferentes _buckets_ (arrays menores) e então usa um algoritmo de ordenação simples, por exemplo o insertion sort para ordenar cada bucket.Então todos os bucket são combinados no array ordenado resultante.
+
+![bucket sort](../../assets/bucket-sort.png)
