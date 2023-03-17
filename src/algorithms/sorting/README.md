@@ -62,3 +62,11 @@ O **counting sort** ( ordenação por contagem ) é o primeiro algoritmo de orde
 O algoritmo de **bucket sort** ( ordenação por balde ou recipiente, também conhecido como bin sort ) também é um algoritmo de ordenação com distribuição, que separa os elementos em diferentes _buckets_ (arrays menores) e então usa um algoritmo de ordenação simples, por exemplo o insertion sort para ordenar cada bucket.Então todos os bucket são combinados no array ordenado resultante.
 
 ![bucket sort](../../assets/bucket-sort.png)
+
+## Radix sort
+
+O **radix sort** ( ordenação por raízes ) é também um algoritmo de ordenação por distribuição, que distribui os inteiros em buckets com base no _dígito_ ou _valor significativo_ de um número (a raiz - daí o nome ordenação por raízes).
+
+Por exemplo, para os números do sistema decimal, a raiz (ou base) 10 é usada;assim, o algoritmo usará 10 buckets para distribuir os elementos, e ordenará inicialmente os números com base nos 1s, depois nos 10s, depois nos 100s, e assim por diante.
+
+![bucket sort](../../assets/radix-sort.png)
